@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main() {
-  float a = 0, b = 0, c = 0;
+  double a = 0, b = 0, c = 0;
   int res = scanf("%f", &a);
   if (res != 1) {
     printf("Enter FLOATS next time, you a faggot!\n");
