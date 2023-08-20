@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main() {
-  float a, b, c;
+  float a = 0, b = 0, c = 0;
   scanf("%f", &a);
   scanf("%f", &b);
   scanf("%f", &c);
