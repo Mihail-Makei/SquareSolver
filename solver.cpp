@@ -3,9 +3,21 @@
 
 int main() {
   float a = 0, b = 0, c = 0;
-  scanf("%f", &a);
-  scanf("%f", &b);
-  scanf("%f", &c);
+  int res = scanf("%f", &a);
+  if (res != 1) {
+    printf("Enter FLOATS next time, you a faggot!\n");
+    return 0;
+  }
+  res = scanf("%f", &b);
+  if (res != 1) {
+    printf("Enter FLOATS next time, you a faggot!\n");
+    return 0;
+  }
+  res = scanf("%f", &c);
+  if (res != 1) {
+    printf("Enter FLOATS next time, you a faggot!\n");
+    return 0;
+  }
   if (a == 0) {
     if (b == 0) {
       if (c == 0) {
