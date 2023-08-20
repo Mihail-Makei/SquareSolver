@@ -2,6 +2,7 @@
 #include <math.h>
 
 const double EPS = 1e-9;
+
 bool cmp_doubles(double a, double b) {
   return fabs(a - b) < EPS;
 }
